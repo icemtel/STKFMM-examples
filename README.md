@@ -29,10 +29,9 @@ Examples of use of STKFMM library (https://github.com/wenyan4work/STKFMM) via th
     git clone https://github.com/wenyan4work/Environment
     cd Environment
     ```
-    1. Comment out in Compile.py everything, except parts connects to PVFMM  (TODO: test if Eigen and gcc are needed).
-
+    1. Comment out in Compile.py everything, except the part related to PVFMM, and the partt which updates git submodules
+      (TODO: test if Eigen and gcc are needed).
     2. Set variables
-
     ```
     export MKL_THREADING_LAYER=GNU         # necessary because conda uses gcc
     export MKL_INTERFACE_LAYER=GNU,LP64    # necessary because conda uses gcc
@@ -49,20 +48,19 @@ Examples of use of STKFMM library (https://github.com/wenyan4work/STKFMM) via th
   cd STKFMM
   ```
   1. Adjust parameters in the cmake script
-    - `PyInterface=ON`
-    -  `BUILD_DOC=ON` - a doxygen (documentation utility) html file will be generated
-  (to edit and change execution rights)
-  ```
-  nano do-cmake.sh
-  chmod 777 do-cmake.sh
-  ```
+      - `PyInterface=ON`
+      - `BUILD_DOC=ON` - a doxygen (documentation utility) html file will be generated 
+      (to edit and change execution rights)
+      ```
+      nano do-cmake.sh
+      chmod 777 do-cmake.sh
+      ```
   2. Run `cmake` and `make`
-  ```
-  mkdir build
-  cd build
-  ../do-cmake.sh
-  make
-  ```
+    ```
+    mkdir build
+    cd build
+    ../do-cmake.sh
+    make
+    ```   
   3. Download precomputed data from https://users.flatironinstitute.org/~wyan/pdata.7z and unzip to `$PVFMM_DIR/pdata` -> weights >3.5 GB
-  
-  Q: where is "$PVFMM_DIR"? I don't have such variable.
+    **Q: where is "$PVFMM_DIR"? I don't have such variable.**
