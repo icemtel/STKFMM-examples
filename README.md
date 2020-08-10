@@ -20,6 +20,7 @@ Examples of use of STKFMM library (https://github.com/wenyan4work/STKFMM) via th
   ```  
   Optional:  
   ```
+  conda install jupyter # to run notebooks
   conda install matplotlib # for visualization
   conda install numba # to run examples.py and kernels.py
   conda install tbb # for numba + threading
