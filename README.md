@@ -64,8 +64,9 @@ Examples of use of STKFMM library (https://github.com/wenyan4work/STKFMM) via th
     make
     ```   
   3. Download precomputed data from https://users.flatironinstitute.org/~wyan/pdata.7z and unzip to `$PVFMM_DIR/pdata` -> weights >3.5 GB
-    **Q: where is "$PVFMM_DIR"? I don't have such variable.**
-
+    **Q: where is "$PVFMM_DIR"? I don't have such variable.** [needs to be fixed to solve with periodic boundary conditions]
+    - Alternative: install Eigen, and set `BUILD_M2L=ON` in STKFMM.
+    
 4. File `/build/Python/PySTKFMM.so` is the python bindings - make sure that they are visible to python (copy this file to the directory with python scripts and jupyter notebooks, or to the path with python libraries, or add `/build/Python/` to the path).
 
 # Notebooks
