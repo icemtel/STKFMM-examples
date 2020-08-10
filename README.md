@@ -1,6 +1,7 @@
 # STKFMM-examples
 Examples of use of STKFMM library (https://github.com/wenyan4work/STKFMM) via the python interface.
 
+- Focus on Stokes equation in 3D and Stokes equation with a boundary wall.
 
 # Installation of STKFMM
 
