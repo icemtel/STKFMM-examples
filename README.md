@@ -64,3 +64,7 @@ Examples of use of STKFMM library (https://github.com/wenyan4work/STKFMM) via th
     ```   
   3. Download precomputed data from https://users.flatironinstitute.org/~wyan/pdata.7z and unzip to `$PVFMM_DIR/pdata` -> weights >3.5 GB
     **Q: where is "$PVFMM_DIR"? I don't have such variable.**
+
+4. File `/build/Python/PySTKFMM.so` is the python bindings - make sure that they are visible to python (copy this file to the directory with python scripts and jupyter notebooks, or to the path with python libraries, or add `/build/Python/` to the path).
+
+# Notebooks
