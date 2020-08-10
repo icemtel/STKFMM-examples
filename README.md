@@ -3,6 +3,7 @@ Examples of use of STKFMM library (https://github.com/wenyan4work/STKFMM) via th
 
 - Focus on Stokes equation in 3D and Stokes equation with a boundary wall.
 
+
 # Installation of STKFMM
 
 - Installed on Ubuntu 16.04 system.
@@ -70,4 +71,3 @@ Examples of use of STKFMM library (https://github.com/wenyan4work/STKFMM) via th
     
 4. File `/build/Python/PySTKFMM.so` is the python bindings - make sure that they are visible to python (copy this file to the directory with python scripts and jupyter notebooks, or to the path with python libraries, or add `/build/Python/` to the path).
 
-# Notebooks
