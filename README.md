@@ -30,7 +30,8 @@ Examples of use of STKFMM library (https://github.com/wenyan4work/STKFMM) via th
 2. Install PVFMM -> I followed steps in https://github.com/wenyan4work/Environment
     ```
     git clone https://github.com/wenyan4work/Environment
-    cd Environment
+    mv Environment STKFMM-env # rename
+    cd STKFMM-env
     ```
     1. Comment out in Compile.py everything, except the part related to PVFMM, and the partt which updates git submodules
       (TODO: test if Eigen and gcc are needed).
